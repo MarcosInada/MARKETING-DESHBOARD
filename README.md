@@ -9,7 +9,7 @@ O objetivo central é fornecer uma visão clara de como o orçamento de marketin
 ![Performance de Vendas](marketing.png)  
 ![Performance de Vendas](marketing.png.2.png)
 ![Performance de Vendas](marketing.png.3.png) 
-![Performance de Vendas](marketing.png.4.pmg) 
+![Performance de Vendas](marketing.png.4.png) 
 
 # 📈 Indicadores Chave de Performance (KPIs)
 O dashboard destaca métricas fundamentais para o marketing orientado a dados:
