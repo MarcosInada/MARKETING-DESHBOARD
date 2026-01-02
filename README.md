@@ -1,62 +1,63 @@
-# Analise Campanhas de Marketing
-Dashboard de Performance de Marketing desenvolvido no Power BI para análise de ROI, taxas de conversão e eficiência de investimentos por canal publicitário.
-# 🎯 Dashboard de Performance de Campanhas de Marketing – ABC Corp
-Este dashboard foi desenvolvido para monitorar e otimizar os investimentos em marketing digital, focando na análise de conversão e no retorno sobre o investimento (ROI) por canal.
 
-# 📝 Contexto do Projeto
-O objetivo central é fornecer uma visão clara de como o orçamento de marketing está sendo transformado em vendas. O painel permite identificar quais canais (Google, Facebook, Instagram, etc.) trazem clientes com menor custo e maior potencial de compra, facilitando a tomada de decisão sobre onde investir mais verba.
-# IMAGEM DO PROJETO 
+# 🎯 Performance de Campanhas de Marketing (ROI & Conversão)
+💡 Pitch: Otimização de investimentos em marketing digital através da análise de ROI, funil de conversão e eficiência de custo por canal publicitário.
+
+# 📌 Visão Geral
+Este dashboard foi desenvolvido para monitorar e otimizar a alocação de verbas publicitárias na organização fictícia . O foco central é transformar dados de tráfego e anúncios em inteligência comercial, permitindo identificar quais canais (Google, Facebook, Instagram, etc.) entregam o melhor retorno sobre o capital investido.
+
+Objetivo: Analisar a conversão e o ROI para maximizar a eficiência do orçamento de marketing.
+
+Público-alvo: CMOs (Diretores de Marketing), Gestores de Tráfego e Analistas de Performance.
+
+Fonte de Dados: Base estruturada do curso "Data Science Academy " , simulando uma operação real de marketing digital.
+# IMAGEM DO DESHBOARD 
 ![Performance de Vendas](marketing.png)  
 ![Performance de Vendas](marketing.png.2.png)
 ![Performance de Vendas](marketing.png.3.png) 
-![Performance de Vendas](marketing.png.4.png) 
+![Performance de Vendas](marketing.png.4.png)
 
-# 📈 Indicadores Chave de Performance (KPIs)
-O dashboard destaca métricas fundamentais para o marketing orientado a dados:
+🛠️ Tecnologias e Ferramentas
+Power BI: Desenvolvimento de dashboards interativos e storytelling de dados.
 
-Investimento Total: Valor acumulado aplicado em campanhas e anúncios.
+Linguagem DAX: Cálculos de ROI dinâmico, taxas de conversão e métricas de eficiência (CPA/CPC).
 
-Faturamento Gerado: Valor bruto das vendas originadas pelas campanhas.
+Power Query (ETL): Integração e padronização de bases de dados provenientes de diferentes plataformas de anúncios.
 
-Taxa de Conversão: Percentual de cliques que se transformaram em vendas efetivas.
+📊 Indicadores Chave (KPIs)
+O painel foca nas métricas que realmente movem o ponteiro do negócio:
 
-ROI (Retorno sobre Investimento): Indicador de quanto a empresa ganhou para cada real investido.
+ROI (Retorno sobre Investimento): Quanto a empresa fatura para cada R$ 1,00 investido.
 
-Custo por Clique (CPC) / Custo por Aquisição (CPA): Métricas de eficiência de custo por canal.
+Taxa de Conversão: Eficiência do funil de vendas (Clique vs. Venda).
 
-# 🎨 Apresentação Gráfica e Visualização
-Para uma análise estratégica, o relatório conta com:
+Custo por Aquisição (CPA): Quanto custa, em média, conquistar um novo cliente por canal.
 
-Gráfico de Funil: Visualização do fluxo do cliente, desde o primeiro contato até o fechamento da venda.
+Faturamento vs. Investimento: Visão clara da margem bruta gerada pelas campanhas.
 
-Gráfico de Barras Comparativo: Performance de vendas e investimento lado a lado por canal de anúncio.
+💡 Insights e Análise de Negócio
+📈 Conclusões Estratégicas extraídas:
+Otimização de Canais (Custo-Benefício): A análise permite identificar canais que possuem um faturamento alto, mas um ROI baixo devido ao custo elevado do anúncio. Isso sinaliza a necessidade de pausar ou otimizar campanhas onde o Custo por Clique (CPC) está corroendo a margem.
 
-Gráficos de Rosca/Pizza: Distribuição percentual do faturamento por categoria de campanha.
+Saúde do Funil de Vendas: Através do Gráfico de Funil, é possível detectar onde ocorre a maior perda de potenciais clientes. Se a taxa de conversão cai bruscamente entre o clique e o fechamento, o problema pode estar na página de vendas ou no processo de checkout, e não na qualidade do anúncio.
 
-Segmentadores Dinâmicos: Filtros por período, região e tipo de mídia para análises rápidas.
+Alocação Inteligente de Orçamento: O dashboard revela quais categorias de produtos ou campanhas performam melhor em determinadas regiões. Com esses dados, o gestor pode direcionar a verba para onde o ROI é historicamente superior, aumentando o faturamento sem necessariamente aumentar o investimento total.
 
-# 🛠️ Inteligência de Dados com DAX
-Aplicação de lógica avançada para métricas de marketing:
+Sazonalidade e Comportamento: Ao analisar a performance temporal, conseguimos identificar períodos onde o investimento em marketing não se traduz em vendas, permitindo um planejamento de "verba de reserva" para períodos de alta conversão comprovada.
 
-Cálculo de ROI Dinâmico: Medidas que recalculam o retorno automaticamente conforme os filtros de data e canal são aplicados.
+⚙️ Inteligência de Dados
+Lógica de ROI Dinâmico: Medidas DAX que recalculam automaticamente o retorno conforme os filtros de data e canal são aplicados, permitindo uma análise granular por mídia.
 
-Métricas de Conversão: Fórmulas para medir o sucesso de cada campanha individualmente.
-
-Análise de Eficiência: Comparativos entre o custo planejado e o faturamento realizado.
-
-# ⚙️ Processo de ETL e Modelagem
-Power Query: Limpeza e padronização das bases de dados de diferentes plataformas de anúncios.
-
-Modelagem Star Schema: Conexão entre a tabela fato de Investimento e a tabela fato de Vendas, utilizando dimensões comuns como Calendário e Produto. 
-![Performance de Vendas](marketing.png)  
-
-![Performance de Vendas](marketing.png.2.png)
-
-![Performance de Vendas](marketing.png.3.png) 
-
-![Performance de Vendas](marketing.png.4.pmg) 
+Modelagem Star Schema: Conexão entre a tabela fato de Investimento e a tabela fato de Vendas, garantindo que as métricas de custo e receita estejam perfeitamente alinhadas por data e categoria.
 
 
 
-# 💾 Origem e Fonte dos Dados
-Projeto desenvolvido com base no curso "Business Intelligence Completo do ETL ao Power BI" do professor André Rosa (Udemy). A base de dados é fictícia, simulando uma operação real de marketing digital.
+
+
+#✍️ Autor
+Marcos Inada
+
+Analista de Dados | Power BI | Insights de Mercado
+
+LinkedIn: [https://www.linkedin.com/in/marcosinada/]
+
+E-mail: marcoscorleone1985@gmail.com
