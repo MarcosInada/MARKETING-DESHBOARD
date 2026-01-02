@@ -1,10 +1,15 @@
-# -An-lise-de-Campanhas-de-Marketing-
+# Analise Campanhas de Marketing
 Dashboard de Performance de Marketing desenvolvido no Power BI para análise de ROI, taxas de conversão e eficiência de investimentos por canal publicitário.
 # 🎯 Dashboard de Performance de Campanhas de Marketing – ABC Corp
 Este dashboard foi desenvolvido para monitorar e otimizar os investimentos em marketing digital, focando na análise de conversão e no retorno sobre o investimento (ROI) por canal.
 
 # 📝 Contexto do Projeto
 O objetivo central é fornecer uma visão clara de como o orçamento de marketing está sendo transformado em vendas. O painel permite identificar quais canais (Google, Facebook, Instagram, etc.) trazem clientes com menor custo e maior potencial de compra, facilitando a tomada de decisão sobre onde investir mais verba.
+# IMAGEM DO PROJETO 
+![Performance de Vendas](marketing.png)  
+![Performance de Vendas](marketing.png.2.png)
+![Performance de Vendas](marketing.png.3.png) 
+![Performance de Vendas](marketing.png.4.pmg) 
 
 # 📈 Indicadores Chave de Performance (KPIs)
 O dashboard destaca métricas fundamentais para o marketing orientado a dados:
